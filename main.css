@@ -194,8 +194,8 @@ svg {
   cursor: pointer;
 }
 
-.header__links-item:nth-child(6),
-.header__links-item:nth-child(7) {
+.header__links-item:nth-child(5),
+.header__links-item:nth-child(6) {
   color: #7ed321;
 }
 
@@ -283,7 +283,7 @@ svg {
   color: #213664;
   width: 100%;
   max-width: 170px;
-  background-color: #6bc010;
+  background-color: #7fec0a;
 }
 
 .all__cta__btn:first-child {
@@ -515,6 +515,7 @@ svg {
 * SUBSCRIBE SECTION
 */
 .subscribe-section {
+  margin-top: -120px;
 }
 
 .subscribe {
@@ -621,7 +622,8 @@ svg {
 
 .subscribe__range {
   display: flex;
-  flex-wrap: wrap;align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   height: 100px;
 }
