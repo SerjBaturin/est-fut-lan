@@ -573,6 +573,7 @@ svg {
   font-family: "Roboto", sans-serif;
   font-size: .85rem;
   font-weight: 300;
+  cursor: pointer;
 }
 
 .subscribe__list__item:first-child .subscribe__list__item__title {
