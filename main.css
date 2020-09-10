@@ -550,9 +550,9 @@ svg {
 .subscribe__base__img {
   width: 62%;
   background: url(images/Product.png);
-  background-position-y: -15px;
-  background-position-x: -100px;
-  background-size: 160%;
+  background-position-y: -50px;
+  background-position-x: -150px;
+  background-size: 200%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -604,22 +604,30 @@ svg {
   padding: 1em;
   width: 32.5%;
   background-color: #0069d9;
+  border: 1px solid #0069d9;
   border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.subscribe__option--choosen {
+  background-color: #fff;
+  color: #222429;
+  border: 1px solid #222429;
 }
 .subscribe__option__title {
   margin-bottom: 1em;
   font-size: 1.4rem;
   font-weight: 400;
-  color: #fff;
+  /* color: #fff; */
 }
 .subscribe__option__descr {
-  color: #fff;
+  /* color: #fff; */
 }
 .subscribe__option__cost {
   display: flex;
   justify-content: space-between;
   margin-top: 1em;
-  color: #fff;
+  /* color: #fff; */
 }
 .subscribe__option__cost input {
   width: 25px;
