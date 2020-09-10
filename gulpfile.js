@@ -3,7 +3,7 @@ const autoprefixer = require('gulp-autoprefixer')
 
 function css () {
   return gulp.src('./main.css')
-  .pipe(autoprefixer('last 2 versions'))
+  .pipe(autoprefixer('last 4 versions'))
   .pipe(gulp.dest('./media'))
 }
 
