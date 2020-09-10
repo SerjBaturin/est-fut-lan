@@ -488,12 +488,14 @@ svg {
 
 .why__list__item__icon {
   width: 80px;
+  height: 100px;
   margin-bottom: .5em;
+  object-fit: contain;
   /* border: 1px solid grey; */
 }
 
 .why__list__item__text {
-  margin-left: 1em;
+  margin-left: 14px;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
   font-weight: 400;
