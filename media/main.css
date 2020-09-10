@@ -231,8 +231,8 @@ svg {
   cursor: pointer;
 }
 
-.header__links-item:nth-child(6),
-.header__links-item:nth-child(7) {
+.header__links-item:nth-child(5),
+.header__links-item:nth-child(6) {
   color: #7ed321;
 }
 
@@ -336,6 +336,7 @@ svg {
   color: #213664;
   width: 100%;
   max-width: 170px;
+  background-color: #7fec0a;
 }
 
 .all__cta__btn:first-child {
@@ -380,19 +381,19 @@ svg {
 }
 
 .all__icons__list__item:nth-child(1) {
-  border-top-left-radius: 100px;
+  border-top-left-radius: 5px;
 }
 
 .all__icons__list__item:nth-child(3) {
-  border-top-right-radius: 100px;
+  border-top-right-radius: 5px;
 }
 
 .all__icons__list__item:nth-child(7) {
-  border-bottom-left-radius: 100px;
+  border-bottom-left-radius: 5px;
 }
 
 .all__icons__list__item:nth-child(9) {
-  border-bottom-right-radius: 100px;
+  border-bottom-right-radius: 5px;
 }
 
 .all__icons__item__img {
@@ -410,8 +411,8 @@ svg {
 
 .all__icons__item__descr {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .all__icons__list__info {
@@ -443,8 +444,8 @@ svg {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   /* color: #222249; */
-  /* color: #0069d9; */
-  color: #5ba10f;
+  color: #0069d9;
+  /* color: #5ba10f; */
   line-height: 1.2em;
   text-align: center;
 }
@@ -455,13 +456,12 @@ svg {
 
 .all__icons__list__item--choosen {
   /* background-color: #2c3c63; */
-  background-color: rgba(250,250,250,1);
+  /* background-color: rgba(250,250,250,1); */
+  background-color: #0069d9;
   -webkit-box-shadow: -1px 10px 10px rgba(0,0,0,0.4);
           box-shadow: -1px 10px 10px rgba(0,0,0,0.4);
   -webkit-transition: all .2s;
   transition: all .2s;
-  
-
 }
 
 .all__icons__item__img--choosen {
@@ -471,19 +471,21 @@ svg {
           transform: scale(1.4);
   -webkit-transition: all .2s;
   transition: all .2s;
-  fill: #5ba10f;
+  /* fill: #5ba10f; */
+  fill: #ffffff;
 }
 
 .all__icons__item__descr--choosen {
   margin-top: 1em;
-  font-weight: 500;
+  font-weight: 700;
   /* color: #2c3c63 !important; */
   /* color: #d4d4d4 !important; */
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
   -webkit-transition: all .2s;
   transition: all .2s;
-  color: #5ba10f !important;
+  /* color: #5ba10f !important; */
+  color: #ffffff !important;
 }
 
 
@@ -610,6 +612,7 @@ svg {
 * SUBSCRIBE SECTION
 */
 .subscribe-section {
+  margin-top: -120px;
 }
 
 .subscribe {
@@ -679,6 +682,7 @@ svg {
   font-family: "Roboto", sans-serif;
   font-size: .85rem;
   font-weight: 300;
+  cursor: pointer;
 }
 
 .subscribe__list__item:first-child .subscribe__list__item__title {
@@ -706,23 +710,23 @@ svg {
           flex-direction: column;
 }
 
-.subscribe__list__item--choosen {
+.subscribe__list__item--checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 1em;
 }
 
-.subscribe__list__item--choosen input {
+.subscribe__list__item--checkbox input {
   width: 25px;
   height: 25px;
 }
 
-.subscribe__list__item--choosen input:checked {
+.subscribe__list__item--checkbox input:checked {
   color: #5ba10f !important;
 }
 
-.subscribe__list__item--choosen span {
+.subscribe__list__item--checkbox span {
   margin-left: auto;
   font-size: 1.2rem;
 }
@@ -734,7 +738,11 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 2em;
+  /* border: 1px solid black; */
 }
 
 .subscribe__range {
@@ -742,9 +750,15 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;-webkit-box-align: center;-ms-flex-align: center;align-items: center;
-  width: 100%;
-  height: 100px;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  /* border: 1px solid black; */
 }
 
 .subscribe__range__item {
@@ -754,7 +768,8 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 90%;
+  width: 85%;
+  /* border: 1px solid black; */
 }
 
 label {
@@ -768,7 +783,7 @@ label {
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
-  width: 80%;
+  width: 60%;
   height: 10px;
   background: #d3d3d3;
   outline: none;
@@ -776,15 +791,16 @@ label {
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
   border-radius: 5px;
+  border: 1px solid black;
 }
 
 #output-employees,
 #output-term {
-  width: 50px;
-  margin-left: 1.5em;
+  width: 65px;
   font-weight: 700;
   color: #0069d9;
   text-align: center;
+  /* border: 1px solid black; */
 }
 
 /**
@@ -795,35 +811,37 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: 1px solid #000000;
   height: 28px;
-  width: 16px;
-  border-radius: 10px;
+  width: 28px;
+  border-radius: 30px;
   background: #ffffff;
   cursor: pointer;
-  margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
-  -webkit-box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-          box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+  margin-top: -1px;
+  margin-left: 2px;
+  /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;  */
 }
 
 /* All the same stuff for Firefox */
 input[type=range]::-moz-range-thumb {
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; */
   border: 1px solid #000000;
   height: 28px;
-  width: 16px;
-  border-radius: 10px;
+  width: 28px;
+  border-radius: 30px;
   background: #ffffff;
   cursor: pointer;
+  margin-left: 2px;
 }
 
 /* All the same stuff for IE */
 input[type=range]::-ms-thumb {
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; */
   border: 1px solid #000000;
   height: 28px;
-  width: 16px;
-  border-radius: 10px;
+  width: 28px;
+  border-radius: 30px;
   background: #ffffff;
   cursor: pointer;
+  margin-left: 2px;
 }
 
 .subscribe__range__slider:hover {
@@ -834,6 +852,7 @@ input[type=range]::-ms-thumb {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
+  margin-left: 2em;
   width: 150px;
   height: 150px;
   background-color: #5ba10f;
