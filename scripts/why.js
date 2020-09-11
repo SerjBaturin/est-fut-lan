@@ -1,5 +1,6 @@
 let items = $('.why__list__item')
 let imgs = $('.why__img')
+let btn = $('.always-btn')
 
 $(window).scroll(function(){
   items.map((i, item) => {
@@ -17,3 +18,14 @@ $(window).scroll(function(){
     }
   })
 });
+
+$(window).scroll(function(){
+  
+    if ( $(this).scrollTop() > items.offset().top - 1400 ) {
+      btn.fadeIn(500)
+    }
+    
+    if ( $(this).scrollTop() < items.offset().top - 1401 ) {
+      btn.fadeOut(500)
+    }
+  })

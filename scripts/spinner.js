@@ -38,13 +38,14 @@ const start = () => {
       addClass($(".all__icons__item__img")[ar[i]], classes[1])
       addClass($(".all__icons__item__descr")[ar[i]], classes[2])
       
+
       info.innerHTML = infoText[i]
       
       setTimeout(()=> {
         deleteClass($(".all__icons__list__item")[ar[i]], classes[0])
         deleteClass($(".all__icons__item__img")[ar[i]], classes[1])
         deleteClass($(".all__icons__item__descr")[ar[i]], classes[2])
-      }, 2800)
+      }, 2900)
     }, 3000 )
 
     // Останавливает таймер и запускает события при наведении на элемент
