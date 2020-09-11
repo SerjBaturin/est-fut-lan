@@ -1199,4 +1199,11 @@ input[type=range]::-ms-thumb {
   z-index: 1000;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  -webkit-transition: color .2s;
+  -o-transition: color .2s;
+  transition: color .2s;
+}
+
+.always-btn:hover {
+  color: #222429;
 }
