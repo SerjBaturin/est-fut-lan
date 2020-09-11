@@ -1,7 +1,7 @@
 <svg width="1920" height="6270" viewBox="0 0 1920 6270" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0)">
 <path d="M973.748 2653.11C280.93 2629.15 -113.984 2398.81 -224.5 2260L-290 3540.5C-62.724 3284.23 305.531 3035.29 1004.34 3121.08C1703.15 3206.88 2151.64 3315.94 2248 3575L2448.5 1978C2315.09 2315.52 1666.56 2677.06 973.748 2653.11Z" fill="url(#paint0_linear)"/>
-<path d="M1513.08 4299.97C2017.22 4215.68 2340.42 3691.54 2439 3440L2151.78 6290H-140.077C-222.265 5997.16 -381.788 5226.72 -362.377 4487.7C-338.114 3563.91 882.898 4405.33 1513.08 4299.97Z" fill="url(#paint1_linear)"/>
+<path d="M1513.08 4629.97C2017.22 4545.68 2340.42 4021.54 2439 3770L2151.78 6620H-140.077C-222.265 6327.16 -381.788 5556.72 -362.377 4817.7C-338.114 3893.91 882.898 4735.33 1513.08 4629.97Z" fill="url(#paint1_linear)"/>
 <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="36" width="1920" height="903">
 <rect y="36" width="1920" height="903" fill="#C4C4C4"/>
 </mask>
@@ -19,7 +19,7 @@
 <stop stop-color="#222249"/>
 <stop offset="1" stop-color="#0069D9"/>
 </linearGradient>
-<linearGradient id="paint1_linear" x1="1037.5" y1="3440" x2="1037.5" y2="6290" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear" x1="1037.5" y1="3770" x2="1037.5" y2="6620" gradientUnits="userSpaceOnUse">
 <stop stop-color="#222249"/>
 <stop offset="1" stop-color="#0069D9"/>
 </linearGradient>
