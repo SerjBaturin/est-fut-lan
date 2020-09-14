@@ -5,7 +5,7 @@
   font-size: 1em;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
 }
 
 @media (max-width: 767.98px) {
@@ -29,7 +29,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
 }
 
 @media (max-width: 767.98px) {
@@ -150,7 +150,7 @@ svg {
   background-color: #888888;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
 }
 
 @media (max-width: 767.98px) {
@@ -226,7 +226,7 @@ svg {
   margin-left: auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .covid__title {
     font-size: 0.8rem;
   }
@@ -315,12 +315,15 @@ svg {
 }
 
 /* MEDIA ALL ICONS & ALL CTA */
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .all-section {
     margin-top: 66px;
     min-height: 90vh;
     height: 100%;
-    background: #fff;
+    background: url(images/all-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 350px auto;
+    background-position-y: 260px;
   }
 
   .all__cta {
@@ -478,7 +481,7 @@ svg {
 }
 
 /* MEDIA HOW IT WORKS*/
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .youtube-video-section {
     margin-top: 0px;
   }
@@ -500,7 +503,7 @@ svg {
   display: none;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .all-mobile-section {
     display: block;
   }
@@ -529,15 +532,15 @@ svg {
     text-align: right;
   }
   .all-mobile__item__descr li {
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 300;
   }
   .all-mobile__item__descr hr {
     position: relative;
     right: 0px;
-    margin: .5em 0;
+    margin: 0.5em 0;
     width: 50px;
-    background-color: rgba(0, 105, 217, .5);
+    background-color: rgba(0, 105, 217, 0.5);
   }
 }
 
@@ -614,10 +617,13 @@ svg {
 }
 
 /* MEDIA WHY ESTVIS */
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .why-section {
     margin-top: 0px;
-    background: #fff;
+    background: url(images/why-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position-y: -100px;
   }
 
   .why__title {
@@ -929,7 +935,7 @@ input[type="range"]::-ms-thumb {
 }
 
 /* MEDIA SUBSCRIBE */
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
   .subscribe-section {
     margin-top: 0px;
   }
