@@ -4,14 +4,14 @@ const allIcons = $(".all__icons__list");
 const item = $(".all__icons__list__item");
 const info = $(".all__icons__list__info")[0];
 const infoText = [
-  "<ul class='all__icons__list__info__text'><li>Control and manage current issues<br>at the bodyshop</li><li>Record operations and access them<br>anytime when needed</li><li>Schedule the bodyshop work</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>Contactless service, electronic paperwork<br>& parts preordering reducing repair time</li><li>Automatic notifications during repair process</li><li>Automatic follow-up,<br>rating requests and up-sales</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>Convenient parts & invoice recording<br>using in-app scanner</li><li>Automatic search for cheaper parts</li><li>Resources management (soon)</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>Supporting the most common estimating systems like CCC, Mitchell and Audatex</li><li>Diagnostic scanners reports importing</li><li>Invoices for QuickBooks, seamless VoIP communications via Asterisk</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>Photo documentation process is guided by insurance company’s template as well as estimate lines are clear even for new employees</li><li>Damage photos and reports<br>are organized and accessed easily</li><li>X-ray mode makes small dents show up</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>Convenient and visual staff assignment</li><li>Designed for each and every bodyshop worker with corresponding functionality</li><li>Make supplements, text & voice memos easily to keep your teammates informed</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>New assignments are instantly imported<br>in EstVis from insurance companies</li><li>Work Authorizations are automatically generated in accordance with insurance company’s requirements</li><li>One-touch insurer’s documentation upload</li></ul>",
-  "<ul class='all__icons__list__info__text'><li>Control current KPIs</li><li>Reveal bottlenecks and optimize your business</li><li>Produce key data reports</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Control and manage current issues<br>at the bodyshop</li><hr><li>Record operations and access them<br>anytime when needed</li><hr><li>Schedule the bodyshop work</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Contactless service, electronic paperwork<br>& parts preordering reducing repair time</li><hr><li>Automatic notifications during repair process</li><hr><li>Automatic follow-up,<br>rating requests and up-sales</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Convenient parts & invoice recording<br>using in-app scanner</li><hr><li>Automatic search for cheaper parts</li><hr><li>Resources management (soon)</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Supporting the most common estimating systems like CCC, Mitchell and Audatex</li><hr><li>Diagnostic scanners reports importing</li><hr><li>Invoices for QuickBooks, seamless VoIP communications via Asterisk</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Photo documentation process is guided by insurance company’s template as well as estimate lines are clear even for new employees</li><hr><li>Damage photos and reports<br>are organized and accessed easily</li><hr><li>X-ray mode makes small dents show up</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Convenient and visual staff assignment</li><hr><li>Designed for each and every bodyshop worker with corresponding functionality</li><hr><li>Make supplements, text & voice memos easily to keep your teammates informed</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>New assignments are instantly imported<br>in EstVis from insurance companies</li><hr><li>Work Authorizations are automatically generated in accordance with insurance company’s requirements</li><hr><li>One-touch insurer’s documentation upload</li></ul>",
+  "<ul class='all__icons__list__info__text'><li>Control current KPIs</li><hr><li>Reveal bottlenecks and optimize your business</li><hr><li>Produce key data reports</li></ul>",
 ];
 
 // Классы, динамически добавляемые к HTML
