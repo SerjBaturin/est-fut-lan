@@ -26,9 +26,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(images/BG8.svg);
-  background-repeat: no-repeat;
-  background-position-y: 25px;
+  /* background: url(images/BG8.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-position-y: 25px; */
 
 }
 
@@ -259,6 +259,10 @@ svg {
 */
 .all-section {
   margin-top: 66px;
+  height: 1284px;
+  background-image: url(images/all-bg.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
 }
 
 .all {
@@ -447,24 +451,38 @@ svg {
 }
 
 .all__icons__list__info__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /* list-style-type: disc; */
   list-style-position: outside;
   /* text-indent: 1em; */
 }
 
 .all__icons__list__info__text li {
-  margin-bottom: .9em;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  /* color: #222249; */
   color: #0069d9;
-  /* color: #5ba10f; */
   line-height: 1.2em;
   text-align: center;
 }
 
+.all__icons__list__info__text hr {
+  margin: .5em 0;
+  width: 150px;
+  background-color: rgba(0, 105, 217,.5);
+}
+
 .all__icons__list__info__text li:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .all__icons__list__item--choosen {
@@ -510,8 +528,7 @@ svg {
 * HOW DOES IT WORK
 */
 .youtube-video-section {
-  padding: 100px 0 95px;
-  /* background-color: #f3f6f9; */
+  margin-top: -200px;
 }
 
 .youtube-video__header {
@@ -540,8 +557,11 @@ svg {
 * WHY ESTVIS SECTION
 */
 .why-section {
-  padding-top: 58px;
-
+  margin-top: 150px;
+  background-image: url(images/why-bg.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-position-y: 70px;
 }
 
 .why {
@@ -954,8 +974,13 @@ input[type=range]::-ms-thumb {
 * INFO SECTION
 */
 .info-section {
-  margin-top: 270px;
-  padding-bottom: 100px;
+  padding-top: 450px;
+  margin-top: -150px;
+  height: 1967px;
+  background-image: url(images/info-bg.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -500px;
 }
 
 .info {
@@ -1122,7 +1147,7 @@ input[type=range]::-ms-thumb {
 
 .info__call {
   padding: 0 10px;
-  margin-top: 100px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
