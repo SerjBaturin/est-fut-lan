@@ -1,0 +1,170 @@
+/**
+* INFO SECTION
+*/
+
+@media (max-width: 600px) {
+  .info-section {
+    display: none;
+  }
+}
+.info-section {
+  padding-top: 450px;
+  margin-top: -150px;
+  height: 1967px;
+  background-image: url(images/info-bg.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -500px;
+}
+
+.info {
+  color: #ffffff;
+}
+
+.info__grid {
+  display: flex;
+}
+
+.info__grid + .info__grid {
+  margin-top: 217px;
+}
+
+.info__col {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.info__img img {
+  margin-right: 10em;
+  transform: scale(1.5);
+}
+
+.info__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.info__header {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.info__sub-header {
+  margin-top: 32px;
+  font-size: 24px;
+}
+
+.info__input-wrapper input {
+  font-size: 18px;
+  padding: 0 15px;
+  line-height: 50px;
+  color: #5c6576;
+  max-height: 50px;
+}
+
+.info__input-wrapper,
+.info__btn-wrapper {
+  margin-top: 24px;
+}
+
+.info__input-wrapper input,
+.info__btn {
+  width: 100%;
+}
+
+.info__btn {
+  box-shadow: 0px 15px 35px #13203e;
+  font-size: 24px;
+}
+
+.info__question-block,
+.info__question-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__question-form {
+  margin-top: 17px;
+  padding: 24px 27px;
+  background-color: #eceef3;
+}
+
+.info__question-title,
+.info__faq-title {
+  text-align: left;
+}
+
+.info__question-comment {
+  margin-bottom: 24px;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  resize: none;
+}
+
+.info__question-submit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info__question-form,
+.info__question-comment,
+.info__question-contact {
+  border-radius: 3px;
+  border: none;
+}
+
+.info__question-contact {
+  padding: 0 15px;
+  flex: 1;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.info__question-btn {
+  width: 154px;
+}
+
+.info__faq {
+  padding: 0 10px;
+}
+
+.info__faq-list {
+  margin-top: 13px;
+}
+
+.info__faq-question {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.info__faq p {
+  color: #8392b2;
+  font-size: 15px;
+}
+
+.info__faq-item:last-child p:last-child {
+  margin-bottom: 0;
+}
+
+.info__faq a {
+  text-decoration: underline;
+}
+
+.info__call {
+  padding: 0 10px;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.info__call-link a {
+  color: #4dae51;
+}

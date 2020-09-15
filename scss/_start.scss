@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.page-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  position: relative;
+}
+
+.section {
+  width: 100%;
+}
+
+.youtube-video__header,
+.bodyshops-talks__header,
+.bodyshops-partners__header,
+.compare__header,
+.description__header,
+.description__title,
+.workflow__header,
+.presentation__header,
+.subscribe__header,
+.sign-up__header,
+.info__header,
+.info__question-title,
+.info__faq-title {
+  font-size: 48px;
+  line-height: 1.16;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-body .form-group {
+  display: flex;
+}
+
+.modal-body .form-group label {
+  flex: 1;
+}
+
+.modal-body .form-group input,
+.modal-body .form-group textarea {
+  flex: 2;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 0 12px;
+  min-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-normal {
+  background-color: #4dae51;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #0069d9;
+}
+
+.btn-outline-primary {
+  border-color: #0069d9;
+  color: #0069d9;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0069d9;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-secondary {
+  border-color: #213664;
+  color: #213664;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #888888;
+}

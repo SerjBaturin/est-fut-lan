@@ -1,0 +1,38 @@
+.footer {
+  padding: 75px 0;
+  background: #212f4e;
+}
+
+.footer,
+.footer__link {
+  color: #898e9a;
+}
+
+.footer__grid,
+.footer__col {
+  display: flex;
+}
+
+.footer__col {
+  flex: 1;
+  flex-direction: column;
+}
+
+.footer__links {
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.footer__link {
+  display: block;
+  margin-right: auto;
+}
+
+.footer__contacts {
+  margin-top: 75px;
+}
+
+.footer__contacts,
+.footer__contacts .footer__link {
+  color: #ffffff;
+}

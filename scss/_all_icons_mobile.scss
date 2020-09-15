@@ -1,0 +1,47 @@
+/**
+* ALL ICONS MOBILE
+*/
+.all-mobile-section {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .all-mobile-section {
+    display: block;
+  }
+  .all-mobile {
+  }
+  .all-mobile__item {
+    margin: 2em 0;
+  }
+  .all-mobile__item__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .all-mobile__item__title img {
+    order: 1;
+    width: 40px;
+  }
+  .all-mobile__item__title div {
+    color: #0069d9;
+  }
+  .all-mobile__item__descr {
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-end;
+    margin: 1em 0;
+    text-align: left;
+  }
+  .all-mobile__item__descr li {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  .all-mobile__item__descr hr {
+    position: relative;
+    right: 0px;
+    margin: 0.5em 0;
+    width: 50px;
+    background-color: rgba(0, 105, 217, 0.5);
+  }
+}

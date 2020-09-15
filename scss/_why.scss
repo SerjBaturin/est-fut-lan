@@ -1,0 +1,120 @@
+/**
+* WHY ESTVIS SECTION
+*/
+.why-section {
+  margin-top: 150px;
+  background-image: url(images/why-bg.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-position-y: 70px;
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.why__title {
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0069d9;
+}
+
+.why__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.why__list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+  width: 48%;
+  transform: rotateX(90deg);
+}
+
+.why__list__item--animate {
+  transform: rotateX(0deg);
+  transition: all 0.2s ease;
+}
+
+.why__list__item__icon {
+  width: 80px;
+  height: 100px;
+  margin-bottom: 0.5em;
+  object-fit: contain;
+}
+
+.why__list__item__text {
+  margin-left: 2em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #222249;
+}
+
+.why__img {
+  transform: rotateX(90deg);
+  width: 100%;
+  height: auto;
+}
+
+.why__img--animate {
+  transform: rotateX(0deg);
+  transition: all 0.3s ease;
+}
+
+/* MEDIA WHY ESTVIS */
+@media (max-width: 599px) {
+  .why-section {
+    margin-top: 0px;
+    background: url(images/why-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position-y: -100px;
+  }
+
+  .why__title {
+    order: 1;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+  }
+
+  .why__list {
+    order: 2;
+  }
+
+  .why__list__item {
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    width: 100%;
+  }
+
+  .why__list__item__icon {
+    width: 40px;
+    height: 60px;
+  }
+
+  .why__list__item__text {
+    margin-left: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222249;
+    text-align: center;
+  }
+
+  .why__img {
+    order: 0;
+  }
+
+  .why__img--animate {
+    transform: rotateX(0deg);
+    transition: all 0.3s ease;
+  }
+}

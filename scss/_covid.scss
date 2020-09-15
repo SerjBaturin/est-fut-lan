@@ -1,0 +1,29 @@
+/**
+* COVID
+*/
+.covid {
+  border-radius: none;
+}
+
+.covid__title {
+  margin-left: auto;
+}
+
+.covid--close {
+  margin-left: auto;
+}
+
+@media (max-width: 599px) {
+  .covid__title {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
