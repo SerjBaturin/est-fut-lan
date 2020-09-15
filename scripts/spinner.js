@@ -27,8 +27,6 @@ const start = (i) => {
   let ar = [0, 1, 2, 4, 7, 6, 5, 3];
 
   let timer = setInterval(() => {
-    
-
     deleteClass($(".all__icons__list__item")[ar[i]], classes[0]);
     deleteClass($(".all__icons__item__img")[ar[i]], classes[1]);
     deleteClass($(".all__icons__item__descr")[ar[i]], classes[2]);
@@ -69,4 +67,3 @@ item.on("mouseleave", (e) => {
   let infoIndex = e.currentTarget.dataset.info;
   start(infoIndex);
 });
-
